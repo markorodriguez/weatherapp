@@ -24,7 +24,7 @@ app.listen(process.env.PORT || 2000, () => console.log("Backend running!"));
 
 
 app.get("/", (req,res)=>{
-    res.send('Welcome')
+    res.write('<h1>UwU</h1>')
 })
 
 const apiKey = "1751e40135324671ae701417220601";
