@@ -5,7 +5,7 @@ const axios = require('axios')
 
 
 app.use(cors({
-    origin:'https://nervous-mestorf-f62d56.netlify.app/'
+    origin:'*'
 }));
 
 app.use((req, res, next) => {
